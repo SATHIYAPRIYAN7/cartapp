@@ -1,0 +1,43 @@
+.add-to-cart-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+  text-align: center;
+}
+
+.products, .shopping-cart {
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 8px;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+   color: white;
+   background-color: blue;
+}
+
+.remove{
+  background-color: red;
+  color: white;
+}
+
+span {
+  display: inline-block;
+  margin-right: 10px;
+}
